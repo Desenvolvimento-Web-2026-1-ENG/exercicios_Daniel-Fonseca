@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>página</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+            <h1>Área de Contato do Cliente</h1>
+                    
+            <button>Ajuda</button>
+            <button>Sair</button>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section> 
+            
+            <h2>Envie sua mensagem para a nossa equipe de suporte backend</h2>
+            <fieldset>
+                <form action="/enviar" method="GET">
+
+                    <label id = "Nome:">Nome
+                        <input type="text" name="nome"><br><br>
+                    </label>
+                    
+                    <label id = "Email">Email
+                        <input type="text" name="email"><br><br>
+                    </label>
+                    
+                    <label id = "Telefone_Celular:">Telefone Celular 
+                        <input type="text" name="celular" minlength="11"><br><br>
+                    </label>
+
+
+                    <label id = "Mensagem:">Mensagem
+                        <textarea name="msg"></textarea><br><br>
+                    </label>
+                    
+                    <button type="Submit" value = "Disparar dados"></button>
+                </form>
+            </fieldset>
+        </section> 
+    </main>
+    
+
+
+</body>
+</html>
