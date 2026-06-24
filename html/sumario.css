@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #1a2e6e;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #555555;
+}
+
+
+.card-perfil {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* Destaque por ID */
+#habilidade-foco {
+    font-weight: bold;
+    color: #2e7d32;
+}
