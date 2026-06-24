@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f9; }
+    </style>
 </head>
 
-<body>
-    <h1>Curso de HTML</h1>
+<body class="min-h-screen flex items-center justify-center px-6">
 
-    <p>Bem-vindo ao curso.</p>
+    <div class="bg-white border border-gray-200 rounded-lg p-10 max-w-md w-full text-center shadow-sm">
 
-    <p>
-        <a href="sumario.html">Acessar o Sumário</a>
-    </p>
+        <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-2">Bem-vindo</p>
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">Curso de HTML</h1>
+        <p class="text-gray-500 mb-8">Aprenda os fundamentos do desenvolvimento web do zero, com exemplos práticos e exercícios.</p>
+
+        <a href="sumario.html"
+           class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            Acessar o Sumário
+        </a>
+
+    </div>
 
 </body>
 </html>
